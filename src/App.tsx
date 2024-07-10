@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import LoginPage from './pages/loginPage/LoginPage'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // ✨ 모바일 체크 => 아닐 시 Else Return
+  
+  // ✨ PC의 Return DOM
   return (
-    <div className='flex w-full h-screen bg-zinc-500'>
-      Testing for Tailwind
+    <div className='ApplicationContainer'>
+      <LoginPage />
     </div>
   )
 }
