@@ -3,7 +3,8 @@
   flex flex-col
   items-center justify-between
   w-[80vw] h-screen
-  py-[2vh];
+  py-[1vh];
+  font-family: 'Pretendard-Regular', sans-serif;
 }
 
 .LoginBoxContainer {
@@ -12,4 +13,5 @@
   bg-white bg-opacity-80
   rounded-xl
   shadow-lg;
+  font-family: 'Pretendard-Regular', sans-serif;
 }

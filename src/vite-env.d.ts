@@ -5,3 +5,5 @@ declare module 'tailwind-merge' {
 }
 
 declare module 'path';
+
+declare module 'url';

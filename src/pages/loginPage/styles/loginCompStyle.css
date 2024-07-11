@@ -6,7 +6,7 @@
   justify-between
   px-[1vw] py-[1vh]
   space-y-[1vh]
-  select-none
+  select-none;
 }
 
 /* ⚒️ Form Header Area */
@@ -17,6 +17,7 @@
   px-[2vw]
   items-center justify-center
 }
+/* - */
 
 /* ⚒️ Form Contents Area */
 .FormContentsBox {
@@ -45,6 +46,7 @@
   focus:bg-emerald-50
   rounded-xl
 }
+/* - */
 
 /* ⚒️ Form Footer Area */
 .FormFooterButtonBox {
@@ -64,4 +66,19 @@
   shadow-md
   rounded-xl
 }
+/* - */
+
 /* ==================== LoginForm CSS End ================== */
+
+/* ================== RgstUserForm CSS Start =============== */
+
+.RgstFooterButton {
+  @apply
+  flex
+  w-full h-[4vh]
+  items-center justify-center
+  text-white font-bold
+  shadow-md
+  rounded-xl
+}
+/* ================== RgstUserForm CSS END ================= */
