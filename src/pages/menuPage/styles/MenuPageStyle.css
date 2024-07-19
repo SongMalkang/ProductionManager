@@ -1,0 +1,37 @@
+.MenuPageContainer {
+  @apply
+  flex
+  w-full h-screen
+  justify-center items-center
+}
+
+.MenuPageBox {
+  @apply
+  flex
+  w-[96vw] h-[94vh]
+  justify-center items-center
+  bg-white bg-opacity-90
+  shadow-md
+  rounded-xl
+}
+
+
+
+
+
+.FadeIn {
+  opacity: 0;
+  animation: fadein 1.25s ease-in-out forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

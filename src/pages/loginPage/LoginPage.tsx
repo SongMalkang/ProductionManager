@@ -1,12 +1,11 @@
 import './styles/loginPageStyle.css'
 import LoginForm from './components/LoginForm';
-import { VERSION } from '../../version.ts';
 
 interface LoginPageInterface {
   VERSION: string
 }
 
-const LoginPage: React.FC<LoginPageInterface> = () => {
+const LoginPage: React.FC<LoginPageInterface> = ({VERSION}) => {
   return (
     <div className='BaseContainer'>
       <div className='text-[2vh] text-zinc-200'>

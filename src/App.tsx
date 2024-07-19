@@ -1,5 +1,5 @@
 import './App.css'
-import LoginPage from './pages/loginPage/LoginPage'
+import MainPage from './pages/MainPage'
 
 function App() {
   // ✨ 모바일 체크 => 아닐 시 Else Return
@@ -7,7 +7,7 @@ function App() {
   // ✨ PC의 Return DOM
   return (
     <div className='ApplicationContainer'>
-      <LoginPage />
+      <MainPage />
     </div>
   )
 }
