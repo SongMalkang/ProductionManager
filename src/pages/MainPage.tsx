@@ -9,7 +9,8 @@ import MenuPage from './menuPage/MenuPage.tsx';
 const MainPage = () => {
   return (
     <div className='MainPageContainer'>
-      <MenuPage />
+      {/* <MenuPage /> */}
+      <LoginPage VERSION={VERSION} />
     </div>
   );
 }
